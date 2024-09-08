@@ -1,0 +1,29 @@
+fastapi
+uvicorn
+redis
+python-dotenv  # Assuming environment variables might be managed using dotenv, as there are many env variables used.
+typing-extensions  # Used for TypedDict
+
+# Langchain specific libraries (replace with actual versions or latest if suitable)
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+langchain-openai
+
+# Other dependencies as per the usage in the script, assuming they are external packages
+langserve
+sse-starlette  # Assuming this is an external package for SSE support with Starlette
+google-api-python-client>=2.100.0
+pydantic==1.10.13
+duckduckgo-search
+google-search-results
+supabase
+sentence-transformers
+ipywidgets
+llmonitor
+
+datasets
+langchain_huggingface
+huggingface_hub
+transformers[agents]
